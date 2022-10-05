@@ -5,7 +5,7 @@
 
 #### Admin App link: https://coop-bank-app.netlify.app/#/adminLogin (for test - user: bubik, password: bubik1)
 
-#### Origin repo: https://github.com/petrpida/coop_bank
+#### Origin repo with cooperation and all commits history: https://github.com/petrpida/coop_bank
 
 #### UX Design
 https://www.figma.com/file/cId7Ty6i5IK5Pqmdb8NrwH/coop_bank?node-id=0%3A1
