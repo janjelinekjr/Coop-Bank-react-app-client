@@ -39,7 +39,7 @@ const Calculator = () => {
 
   // fetch data calculator
   useEffect(() => {
-    fetch(`http://localhost:3000/request/calculate`, {
+    fetch(`https://coopbank-app-server.herokuapp.com/request/calculate`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(inputCalc),

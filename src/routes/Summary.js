@@ -9,7 +9,7 @@ function Summary() {
   const params = useParams();
 
   useEffect(() => {
-    fetch(`http://localhost:3000/request/${params.id}`, { method: "GET" }).then(
+    fetch(`https://coopbank-app-server.herokuapp.com/request/${params.id}`, { method: "GET" }).then(
       async (response) => {
         const data = await response.json();
         if (response.status >= 400) {
@@ -154,8 +154,8 @@ function Summary() {
       <p className={styles.url}>
         Uschovejte si prosím pečlivě tento odkaz{" "}
         <span>
-          <a href={`http://localhost:3000/${params.id}`}>
-            http://localhost:3000/{params.id}
+          <a href={`https://coopbank-app-server.herokuapp.com/${params.id}`}>
+          https://coopbank-app-server.herokuapp.com/{params.id}
           </a>
         </span>
         , přes který se můžete k výše uvedenému shrnutí kdykoli vrátit.

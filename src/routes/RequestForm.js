@@ -114,7 +114,7 @@ export default function RequestForm() {
 
     setAddNewRequestCall({ state: "pending" });
 
-    const res = await fetch(`http://localhost:3000/request/create`, {
+    const res = await fetch(`https://coopbank-app-server.herokuapp.com/request/create`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newData),

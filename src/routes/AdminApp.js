@@ -29,7 +29,7 @@ export default function AdminApp() {
 
     // All clients
     useEffect(() => {
-        fetch(`http://localhost:3000/request/list`, {
+        fetch(`https://coopbank-app-server.herokuapp.com/request/list`, {
             method: "GET",
             headers: {Authorization: `Bearer ${userData.data.token}`},
         }).then(async (response) => {
@@ -44,7 +44,7 @@ export default function AdminApp() {
 
     // Single client
     const editBtnFetch = (id) => {
-        fetch(`http://localhost:3000/request/${id}`, {
+        fetch(`https://coopbank-app-server.herokuapp.com/request/${id}`, {
             method: "GET",
             headers: {"Content-Type": "application/json"},
         }).then(async (response) => {
@@ -60,7 +60,7 @@ export default function AdminApp() {
 
     // Update button for APPROVE
     const approveBtn = () => {
-        fetch(`http://localhost:3000/request/${singleRequest.data.id}/approve`, {
+        fetch(`https://coopbank-app-server.herokuapp.com/request/${singleRequest.data.id}/approve`, {
             method: "PUT",
             headers: {Authorization: `Bearer ${userData.data.token}`},
         }).then(async (response) => {
@@ -76,7 +76,7 @@ export default function AdminApp() {
 
     // Update button for CANCEL
     const cancelBtn = () => {
-        fetch(`http://localhost:3000/request/${singleRequest.data.id}/cancel`, {
+        fetch(`https://coopbank-app-server.herokuapp.com/request/${singleRequest.data.id}/cancel`, {
             method: "PUT",
             headers: {Authorization: `Bearer ${userData.data.token}`},
         }).then(async (response) => {
@@ -92,7 +92,7 @@ export default function AdminApp() {
 
     // Delete request of single client data button
     const deleteBtn = () => {
-        fetch(`http://localhost:3000/request/${singleRequest.data.id}`, {
+        fetch(`https://coopbank-app-server.herokuapp.com/request/${singleRequest.data.id}`, {
             method: "DELETE",
             headers: {Authorization: `Bearer ${userData.data.token}`},
         }).then(async (response) => {

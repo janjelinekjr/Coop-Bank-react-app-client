@@ -42,7 +42,7 @@ export default function AdminLogin() {
     }
 
     async function checkUser(user) {
-      const res = await fetch(`http://localhost:3000/login`, {
+      const res = await fetch(`https://coopbank-app-server.herokuapp.com/login`, {
         method: "GET",
         headers: { Authorization: `Basic ${user}` },
       });
