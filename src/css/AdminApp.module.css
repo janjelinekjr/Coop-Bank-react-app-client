@@ -1,0 +1,74 @@
+.modal { 
+    border-radius: 0;
+}
+
+.modal_buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  
+}
+/* .modal_buttons button { 
+    background-color: #00843D;
+    border: #00843D;
+    border-radius: 0;
+
+} */
+.approval_btn button{ 
+    margin-left: 1rem;
+}
+/* .delete_btn { 
+    margin: 0 auto;
+} */
+.modal_buttons button:hover { 
+    background-color: #00843ed0;
+}
+.sort_btn { 
+    border-radius: 0;
+    color: #00843D;
+    background-color: #fff;
+    border: #fff;
+}
+.sort_btn:hover {
+    background-color: #fff;
+}
+
+.edit_btn { 
+    border-radius: 0;
+    width: 100%;
+}
+.address_ul { 
+    list-style: none;
+   
+}
+li { 
+    margin-bottom: 5px;
+
+}
+
+.modal_title { 
+    display: flex;
+    flex-direction: column;
+    margin-left:1rem ;
+
+}
+
+.modal_status_pen { 
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: #afcb15;
+}
+.modal_status_app {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: #00843D;
+}
+.modal_status_can {
+     margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: red;
+}
+

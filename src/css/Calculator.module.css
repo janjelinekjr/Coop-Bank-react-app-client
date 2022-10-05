@@ -1,0 +1,86 @@
+
+.calcContainer {
+    display: flex;
+    gap: 8rem;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 50%;
+}
+
+.heading {
+    text-align: center;
+    background-color: #00843D;
+    color: #ffffff;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.footer {
+    border-top: 2px solid #00843D;
+    margin-top: 40px;
+}
+
+
+.fee {
+    font-size: 0.8rem;
+}
+
+.outputsValue {
+    border: 1px solid #00843D;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.card {
+    box-shadow: 10px 10px 20px -7px rgba(0,0,0,0.8);
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.text {
+    font-size: 1.2rem;
+}
+
+.header {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #00843D;
+}
+
+.values {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.spinner {
+    height: 304px;
+}
+
+/* mobil and small screens */
+@media (max-width: 55em) {
+    .calcContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 65px;
+        justify-content: center;
+    }
+
+    .inputContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        width: 100%;
+    }
+}
