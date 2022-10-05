@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {HashRouter, Routes, Route} from "react-router-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import App from "./App";
@@ -14,7 +14,7 @@ import RequestForm from "./routes/RequestForm";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <React.StrictMode>
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<App/>}>
                     <Route path="" element={<Home/>}/>
@@ -25,7 +25,7 @@ root.render(
                     <Route path="/:id" element={<Summary/>}/>
                 </Route>
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     </React.StrictMode>
 );
 
