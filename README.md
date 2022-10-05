@@ -3,6 +3,10 @@
 
 ### Link: https://janjelinekjr.github.io/Coop-Bank-react-app-client/
 
+#### Admin App link https://janjelinekjr.github.io/Coop-Bank-react-app-client/#/adminLogin (for test - user: dulik password: dulik1)
+
+
+
 #### Origin repo: https://github.com/petrpida/coop_bank
 
 #### UX Design
