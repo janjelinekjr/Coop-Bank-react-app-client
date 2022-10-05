@@ -154,8 +154,8 @@ function Summary() {
       <p className={styles.url}>
         Uschovejte si prosím pečlivě tento odkaz{" "}
         <span>
-          <a href={`https://coopbank-app-server.herokuapp.com/${params.id}`}>
-          https://coopbank-app-server.herokuapp.com/{params.id}
+          <a href={`https://janjelinekjr.github.io/Coop-Bank-react-app-client/#/${params.id}`}>
+          https://janjelinekjr.github.io/Coop-Bank-react-app-client/#/{params.id}
           </a>
         </span>
         , přes který se můžete k výše uvedenému shrnutí kdykoli vrátit.
