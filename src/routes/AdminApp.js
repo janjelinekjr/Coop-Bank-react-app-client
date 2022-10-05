@@ -15,9 +15,9 @@ export default function AdminApp() {
 
     const navigate = useNavigate();
     const [adminData, setAdminData] = useState({});
-    const [isApproved, setIsApproved] = useState({});
-    const [isCanceled, setIsCanceled] = useState({});
-    const [isDeleted, setIsDeleted] = useState({});
+    const [setIsApproved] = useState({});
+    const [setIsCanceled] = useState({});
+    const [setIsDeleted] = useState({});
     const [showModal, setShowModal] = useState(false);
     const [showConfirmModalA, setShowConfirmModalA] = useState(false);
     const [showConfirmModalC, setShowConfirmModalC] = useState(false);
