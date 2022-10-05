@@ -1,9 +1,9 @@
 ## CoopBank React Project
 ### Contributors: Petr Studený (petrpida), Jan Jelínek ( janjelinekjr), ViktorRasev
 
-### Link: https://janjelinekjr.github.io/Coop-Bank-react-app-client/
+### Link: https://coop-bank-app.netlify.app/
 
-#### Admin App link: https://janjelinekjr.github.io/Coop-Bank-react-app-client/#/adminLogin (for test - user: bubik, password: bubik1)
+#### Admin App link: https://coop-bank-app.netlify.app/#/adminLogin (for test - user: bubik, password: bubik1)
 
 #### Origin repo: https://github.com/petrpida/coop_bank
 
