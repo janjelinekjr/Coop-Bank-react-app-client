@@ -1,5 +1,5 @@
 ## CoopBank React Project
-### Contributors: Petr Studený (petrpida), Jan Jelínek ( janjelinekjr), ViktorRasev
+### Contributors: Petr Studený (petrpida), Jan Jelínek ( janjelinekjr), Viktor Rašev (ViktorRasev)
 
 ### Link: https://coop-bank-app.netlify.app/
 
