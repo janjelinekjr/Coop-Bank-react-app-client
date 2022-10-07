@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Form from "react-bootstrap/Form";
 import styles from "../css/Calculator.module.css";
 import Button from "react-bootstrap/Button";
-import { Card, FormGroup } from "react-bootstrap";
+import { Card, FormGroup, Spinner } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
 const Calculator = () => {
@@ -212,9 +212,12 @@ const Calculator = () => {
                 </Button>
               </Card.Body>
             ) : (
-              `Error.
-              Data nenačtena. 
-              Zkuste to prosím znovu.`
+              <div className={styles.spinner}>
+                <div>
+                  <Spinner animation="border" variant="primary" />
+                </div>
+                <p>Náčítání...</p>
+              </div>
             )}
             <Card.Footer className="text-muted"></Card.Footer>
           </Card>
