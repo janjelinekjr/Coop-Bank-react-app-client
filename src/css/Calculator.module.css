@@ -13,6 +13,10 @@
     width: 50%;
 }
 
+.cardContainer {
+width: 30%;
+}
+
 .heading {
     text-align: center;
     background-color: #00843D;
@@ -73,11 +77,19 @@
 }
 
 .spinner {
-    height: 304px;
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 63em) {
+
+    .cardContainer {
+        width: 40%;
+    }
 }
 
 /* mobil and small screens */
-@media (max-width: 55em) {
+@media (max-width: 57em) {
     .calcContainer {
         display: flex;
         flex-direction: column;
@@ -92,4 +104,9 @@
         gap: 50px;
         width: 100%;
     }
+
+    .cardContainer {
+        width: 100%;
+    }
 }
+

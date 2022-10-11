@@ -166,10 +166,9 @@ const Calculator = () => {
                 <p>5 let</p>
               </div>
             </FormGroup>
-            <div className={styles.outputCard}></div>
           </div>
         </div>
-        <div>
+        <div className={styles.cardContainer}>
           <Card className={"text-center rounded-0 " + styles.card}>
             <Card.Header className={styles.header}>
               Vaše výhodná půjčka
